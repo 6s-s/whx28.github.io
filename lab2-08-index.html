@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+
+    <meta charset="UTF-8">
+    <title>个人简历 - 王慧萱</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .resume-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            width: 120px;
+        }
+        .section-title {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            font-size: 1.2em;
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+        }
+        .project-box {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #4caf50;
+            border-radius: 5px;
+        }
+        .photo-cell {
+            width: 120px;
+            text-align: center;
+            vertical-align: top;
+        }
+        .photo-placeholder {
+            width: 100px;
+            height: 120px;
+            background: #e9ecef;
+            border: 2px dashed #6c757d;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            color: #6c757d;
+            font-size: 12px;
+        }
+        .self-evaluation {
+            line-height: 1.8;
+            padding: 15px;
+            background-color: #fff3e0;
+            border-radius: 8px;
+            border-left: 4px solid #ff9800;
+        }
+        .icon-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .icon-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .icon-list li:last-child {
+            border-bottom: none;
+        }
+        .icon-list i {
+            width: 25px;
+            color: #3498db;
+            margin-right: 10px;
+        }
+        .contact-info {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #34495e;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <table>
+            <tr>
+                <td class="section-title" colspan="5">基本信息</td>
+            </tr>
+            <tr>
+                <td class="photo-cell" rowspan="4">
+                    <div class="photo-placeholder">
+                    <div class="target-frame" style="width: 100px; height: 120px;">
+                    <img src="image8.jpg" style="width: 100px; height: 120px; object-fit: cover;">
+</div>
+                    </div>
+                </td>
+                <!-- 左边基本信息 -->
+                <th>姓名</th>
+                <td>王慧萱</td>
+                <!-- 右边联系信息 -->
+                <th>电话</th>
+                <td>18865569139</td>
+            </tr>
+            <tr>
+                <th>性别</th>
+                <td>女</td>
+                <th>邮箱</th>
+                <td>18865569139@163.com</td>
+            </tr>
+            <tr>
+                <th>年龄</th>
+                <td>19</td>
+                <th>健康状况</th>
+                <td>良好</td>
+            </tr>
+            <tr>
+                <th>籍贯</th>
+                <td>山东聊城</td>
+                <th>婚姻状况</th>
+                <td>未婚</td>
+            </tr>
+            <tr>
+                <td class="section-title" colspan="5">项目经历</td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <div class="project-box">
+                        <h3>2025年"软件杯"大赛 - 智能学习助手系统</h3>
+                        <p>基于人工智能技术开发个性化学习推荐平台，利用机器学习算法分析学生学习行为，为学生提供定制化的学习路径规划和资源推荐。</p>
+                    </div>
+                    <div class="project-box">
+                        <h3>2025年"软件杯"大赛 - 校园健康管理系统</h3>
+                        <p>设计并开发校园健康数据管理平台，整合学生健康信息，实现健康监测、预警提醒和数据分析功能。</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="section-title" colspan="5">技能证书</td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <ol class="icon-list">
+                        <li><i class="fas fa-certificate"></i> 全国计算机等级考试二级证书</li>
+                        <li><i class="fas fa-certificate"></i> 大学英语四级证书（CET-4）</li>
+                        <li><i class="fas fa-certificate"></i> 普通话水平测试二级甲等</li>
+                        <li><i class="fas fa-certificate"></i> 网页设计师职业资格证书</li>
+                        <li><i class="fas fa-certificate"></i> 软件杯人工智能与大数据方向一等奖</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td class="section-title" colspan="5">兴趣爱好</td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <ol class="icon-list">
+                        <li><i class="fas fa-code"></i> 编程开发 - 热爱前端技术，喜欢探索新的框架和工具</li>
+                        <li><i class="fas fa-music"></i> 文学赏读 - 喜欢阅读各种文学作品，陶冶情操</li>
+                        <li><i class="fas fa-basketball-ball"></i> 球类运动 - 享受团队合作的乐趣，锻炼身体协调性</li>
+                        <li><i class="fas fa-camera"></i> 摄影记录 - 用镜头记录生活中的美好瞬间</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <!-- 自我评价 -->
+            <tr>
+                <td class="section-title" colspan="5">自我评价</td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <div class="self-evaluation">
+                        <p>我是一名对计算机科学充满热情的大学生，特别在前端开发领域有着浓厚的兴趣。在学习过程中，我始终坚持理论与实践相结合的学习方法，能够快速掌握新技术并应用到实际项目中。性格开朗乐观，具备良好的团队协作精神，能够与团队成员有效沟通，共同推进项目进展。</p>
+                        
+                        <p>面对技术挑战时，我展现出较强的学习能力和问题解决能力。当遇到难题时，我会通过查阅文档、搜索技术社区和请教他人等多种途径寻找解决方案，并在此过程中不断积累经验。我相信这种积极的学习态度和解决问题的能力将在未来的工作中发挥重要作用。</p>
+                        
+                        <p>展望未来，我希望能在前端开发领域深入发展，掌握现代前端框架，参与更具挑战性的项目开发。我愿意不断学习新技术，提升自己的专业水平，为团队创造价值，为用户提供更好的产品体验。我相信通过持续的努力和学习，我能够在软件开发领域取得优异的成绩。</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <div class="contact-info">
+            <p>© 2025 王慧萱 - 个人简历 |联系电话18865569139</p>
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</body>
+</html>
+</body>
+</html>
